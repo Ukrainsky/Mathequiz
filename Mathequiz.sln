@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathequiz", "WindowsFormsApp1\Mathequiz.csproj", "{E2BD7D67-3EEA-43D4-B004-0499739570C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2BD7D67-3EEA-43D4-B004-0499739570C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BD7D67-3EEA-43D4-B004-0499739570C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BD7D67-3EEA-43D4-B004-0499739570C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BD7D67-3EEA-43D4-B004-0499739570C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88587B31-D003-4CCC-A764-517D21A9D50A}
+	EndGlobalSection
+EndGlobal
