@@ -128,6 +128,7 @@
             this.Summe.Name = "Summe";
             this.Summe.Size = new System.Drawing.Size(100, 35);
             this.Summe.TabIndex = 2;
+            this.Summe.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // Differenz
             // 
@@ -137,6 +138,7 @@
             this.Differenz.Size = new System.Drawing.Size(100, 35);
             this.Differenz.TabIndex = 3;
             this.Differenz.ValueChanged += new System.EventHandler(this.Differenz_ValueChanged);
+            this.Differenz.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // label3
             // 
@@ -187,6 +189,7 @@
             this.Produkt.Name = "Produkt";
             this.Produkt.Size = new System.Drawing.Size(100, 35);
             this.Produkt.TabIndex = 4;
+            this.Produkt.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // label5
             // 
@@ -236,6 +239,7 @@
             this.Quotient.Name = "Quotient";
             this.Quotient.Size = new System.Drawing.Size(100, 35);
             this.Quotient.TabIndex = 5;
+            this.Quotient.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // label10
             // 
@@ -287,6 +291,7 @@
             this.StartButton.TabIndex = 1;
             this.StartButton.Text = "Quiz starten";
             this.StartButton.UseVisualStyleBackColor = true;
+            this.StartButton.Click += new System.EventHandler(this.StartButton_Click);
             // 
             // timer1
             // 
@@ -326,6 +331,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Click += new System.EventHandler(this.StartButton_Click);
             ((System.ComponentModel.ISupportInitialize)(this.Summe)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Differenz)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Produkt)).EndInit();
